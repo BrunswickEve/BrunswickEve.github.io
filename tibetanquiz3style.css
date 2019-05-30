@@ -1,9 +1,11 @@
 body {
 	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: auto;
 }
 
 #quiz {
-	margin-left: 10px;
+	margin: auto;
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
 	width: 400px;
@@ -12,7 +14,7 @@ body {
 }
 
 input {
-	margin-bottom: 20px;
+	margin: auto;
 	display: block;
 }
 
@@ -32,7 +34,7 @@ input {
 	color: white;
 	font-size: 16px;
 	transition-duration: .5s;
-	margin-top: 15px;
+	margin: auto;
 }
 
 #button:hover {
@@ -49,7 +51,7 @@ input {
 	width: 400px;
 	border-radius: 20px;
 	float: left;
-	margin-left: 20px;
+	margin-top: 35px;
 	font-size: 30px;
 }
 
@@ -60,4 +62,10 @@ input {
 
 #mc {
 	display: inline;
+}
+
+#to_center
+{
+	margin: auto;
+	width: 460px;
 }
